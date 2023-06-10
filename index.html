@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="calculator-fav.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+    <script src="app.js" defer></script>
+    <title>Ca1cu1ator</title>
+</head>
+<body class="font-Poppins bg-black flex items-center justify-center min-h-screen">
+    <main class="w-[23rem] bg-yankeeBlue py-7 px-2 rounded">
+        <section class="bg-silver p-5 w-80 m-auto rounded text-right">
+            <span id="result" class="text-4xl font-bold"></span>
+        </section>
+        <section class="w-80 m-auto mt-4">
+            <div class="grid grid-cols-4 text-center gap-3 font-bold text-xl">
+                <div id="clear" class="col-span-2 bg-crimson self-center p-3 text-white">AC</div>
+                <div id="backspace" class="bg-crimson p-3 text-white rounded">del</div>
+                <div id="operator" class="bg-tangerine p-3 text-white rounded">/</div>
+                <div class="bg-glacier p-3 rounded digit">7</div>
+                <div class="bg-glacier p-3 rounded digit">8</div>
+                <div class="bg-glacier p-3 rounded digit">9</div>
+                <div id="operator" class="bg-tangerine p-3 text-white rounded">x</div>
+                <div class="bg-glacier p-3 rounded digit">4</div>
+                <div class="bg-glacier p-3 rounded digit">5</div>
+                <div class="bg-glacier p-3 rounded digit">6</div>
+                <div id="operator" class="bg-tangerine p-3 text-white rounded">-</div>
+                <div class="bg-glacier p-3 rounded digit">1</div>
+                <div class="bg-glacier p-3 rounded digit">2</div>
+                <div class="bg-glacier p-3 rounded digit">3</div>
+                <div id="operator" class="bg-tangerine p-3 text-white rounded">+</div>
+                <div class="col-span-2 bg-glacier p-3 rounded digit">0</div>
+                <div id="decimal" class="bg-glacier p-3 rounded">.</div>
+                <div id="equal" class="bg-tangerine p-3 text-white rounded">=</div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
