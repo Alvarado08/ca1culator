@@ -12,7 +12,7 @@
     <script src="app.js" defer></script>
     <title>Ca1cu1ator</title>
 </head>
-<body class="font-Poppins bg-black flex items-center justify-center min-h-screen">
+<body class="relative font-Poppins bg-black flex items-center justify-center min-h-screen px-4 sm:px-0">
     <main class="w-[23rem] bg-yankeeBlue py-7 px-2 rounded">
         <section class="bg-silver p-5 w-80 m-auto rounded text-right">
             <span id="result" class="text-4xl font-bold"></span>
@@ -35,10 +35,14 @@
                 <div class="bg-glacier p-3 rounded digit">3</div>
                 <div id="operator" class="bg-tangerine p-3 text-white rounded">+</div>
                 <div class="col-span-2 bg-glacier p-3 rounded digit">0</div>
-                <div id="decimal" class="bg-glacier p-3 rounded">.</div>
+                <div id="decimal" class="bg-glacier p-3 rounded digit">.</div>
                 <div id="equal" class="bg-tangerine p-3 text-white rounded">=</div>
             </div>
         </section>
     </main>
+    <footer class="absolute bottom-2 left-2 text-white">
+        <div>Favicon made by <strong>Freepik</strong> from <strong><a href="https://www.flaticon.com/free-icon/calculator_1011812?term=calculator&page=1&position=9&origin=tag&related_id=1011812" target="_blank">Flaticon</a></strong></div>
+        <div>Made with 🪄 by <strong>Jorge Alvarado</strong></div>
+    </footer>
 </body>
 </html>
